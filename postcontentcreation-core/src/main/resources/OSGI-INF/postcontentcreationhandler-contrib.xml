@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="org.nuxeo.sample.customContentCreationHandler">
+  <extension point="postContentCreationHandlers" target="org.nuxeo.ecm.platform.content.template.service.ContentTemplateService">
+    <postContentCreationHandler class="org.nuxeo.sample.CustomContentCreationHandler" name="customContentCreationHandler"/>
+  </extension>
+</component>
